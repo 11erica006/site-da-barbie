@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Barbie</title>
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+  <main class="quiz-container">
+    <div id="progress-bar"><div id="progress"></div></div>
+    <div id="quiz-box">
+      <h2 id="pergunta"></h2>
+      <div id="opcoes"></div>
+      <button id="proximo" disabled>Próxima</button>
+    </div>
+    <div id="resultado" style="display:none;">
+      <h2>Você é...</h2>
+      <p id="personagem-nome"></p>
+      <img id="personagem-imagem" src="" alt="" />
+    </div>
+  </main>
+  <script src="quiz.js"></script>
+</body>
+</html>

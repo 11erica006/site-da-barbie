@@ -1,0 +1,58 @@
+ nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      nav a:hover,
+      nav a:focus {
+        color: #cb2d96;
+      }
+
+.carrossel-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.carrossel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.filme {
+  min-width: 200px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.filme img {
+  width: 200px;       /* ou o valor que desejar */
+  height: 300px;      /* altura proporcional ao layout */
+  object-fit: cover;  /* mantém o corte proporcional sem distorcer */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+
+.botoes {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.botoes button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.botoes button:hover {
+  background-color: #a02276;
+}
+

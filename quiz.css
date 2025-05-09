@@ -1,0 +1,84 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff0f5;
+  padding: 20px;
+  margin: 0;
+}
+
+.quiz-container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+#progress-bar {
+  height: 15px;
+  background-color: #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#progress {
+  height: 100%;
+  background-color: #cb2d96;
+  width: 0%;
+  transition: width 0.3s;
+}
+
+#opcoes label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#proximo {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f8c7e3;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#proximo:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+#resultado img {
+  max-width: 300px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+/* Estilo para o botão "Voltar à Página Inicial" */
+#resultado button {
+  background-color: #ff69b4; /* Cor de fundo (rosa Barbie) */
+  color: white; /* Cor do texto */
+  padding: 15px 30px; /* Tamanho do botão */
+  font-size: 18px; /* Tamanho da fonte */
+  border: none; /* Remover bordas */
+  border-radius: 10px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor como pointer para indicar que é clicável */
+  transition: background-color 0.3s, transform 0.2s; /* Efeito de transição suave */
+  margin-top: 20px; /* Espaço acima do botão */
+  width: 100%; /* Botão ocupa toda a largura */
+  max-width: 300px; /* Tamanho máximo do botão */
+  text-align: center; /* Alinha o texto no centro */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra leve para destacar */
+}
+
+#resultado button:hover {
+  background-color: #ff1493; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.05); /* Aumenta levemente o botão */
+}
+
+#resultado button:active {
+  background-color: #db2d69; /* Cor de fundo quando clicado */
+  transform: scale(0.98); /* Diminui o botão para simular clique */
+}

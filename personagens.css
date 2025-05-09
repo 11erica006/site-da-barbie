@@ -1,0 +1,44 @@
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+    }
+    nav a:hover,
+    nav a:focus {
+      color: #cb2d96;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff0f5;
+      color: #333;
+    }
+    .conteudo {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .personagem {
+      display: flex;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+    .personagem img {
+      max-width: 150px;
+      margin-right: 20px;
+      border-radius: 10px;
+    }
+    .personagem h3 {
+      margin: 0;
+      color: #cb2d96;
+    }
+    .personagem p {
+      margin-top: 10px;
+    }
+ 
